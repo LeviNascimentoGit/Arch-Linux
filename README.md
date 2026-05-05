@@ -448,9 +448,7 @@ nano /etc/sudoers
 ```
 > Dica: `CTRL`+`O` pra salvar, `Enter` pra confirmar. `CTRL`+`X` pra fechar.
 
-<details>
-
-# 4 Pacotes de suporte <sub>(Opcionais)</sub>  
+# 4 Pacotes de suporte  
 
 ### Atualizar a base de download
 ```
@@ -484,15 +482,12 @@ bluez
 ```
 systemctl enable bluetooth.service
 ```
-</details>
-
-<details> 
 
 # 6 Instalando a interface gráfica  
 
 1. Instalar o Gnome puro
 ```
-sudo pacman -S gdm gnome-shell gnome-desktop gnome-session gnome-keyring gnome-control-center gnome-settings-daemon gnome-software gnome-console xdg-user-dirs-gtk adwaita-icon-theme nautilus
+sudo pacman -S gdm gnome-shell gnome-desktop gnome-session gnome-keyring gnome-control-center gnome-settings-daemon gnome-tweak-tool gnome-software gnome-console xdg-user-dirs-gtk adwaita-icon-theme gnome-backgrounds gnome-initial-setup nautilus
 ```
 2. Habilitar a tela de login
 ```
