@@ -341,7 +341,7 @@ nano /etc/locale.gen
 
 2. Gerar o arquivo de idioma  
 ```
-locale-gen
+locale-gen && export LANG=pt_BR.UTF-8
 ```
 ### Definir os formatos de DD/MM/AAAA e outras medidas no padrão brasileiro  
 ```
@@ -350,10 +350,10 @@ nano /etc/locale.conf
 Escrever o texto:  
 ```
 LANG=pt_BR.UTF-8
-LC_NUMERIC=pt_BR.UTF-8
 LC_TIME=pt_BR.UTF-8
-LC_MONETARY=pt_BR.UTF-8
 LC_PAPER=pt_BR.UTF-8
+LC_NUMERIC=pt_BR.UTF-8
+LC_MONETARY=pt_BR.UTF-8
 LC_MEASUREMENT=pt_BR.UTF-8
 ```
 >Dica: `CTRL`+`O` pra salvar, `Enter` pra confirmar. `CTRL`+`X` pra fechar.  
