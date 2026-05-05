@@ -512,7 +512,7 @@ bootctl --path=/boot install
 
 1. Abrir o arquivo de configuração de entrada padrão
 ```
-nano boot/loader/loader.conf
+nano /boot/loader/loader.conf
 ```
 2. Apagar a linha que começa com `default`, e substituir por:
 ```
