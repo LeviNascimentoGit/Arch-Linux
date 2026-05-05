@@ -320,7 +320,7 @@ cat /mnt/etc/fstab
 ## 3.3 Continuar os processos no diretório root  
 
 ```
-sudo arch-chroot -S /mnt
+arch-chroot -S /mnt
 ```
 
 ## 3.5 Definir região, hora e idioma  
