@@ -316,6 +316,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 cat /mnt/etc/fstab
 ```
 > Se uma das partições não for listada. Repetir o processo desde a criação dos pontos de montagem.  
+<details>
 
 ## 3.3 Criando uma partição de swap <sub>(Opcional)</sub>  
 
