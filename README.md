@@ -315,10 +315,17 @@ genfstab -U /mnt >> /mnt/etc/fstab
 ```
 cat /mnt/etc/fstab
 ```
-> Se uma das partições não for listada. Repetir o processo desde a criação dos pontos de montagem.  
+> Se uma das partições não for listada. Repetir o processo desde a criação dos pontos de montagem.
+
+## 3.3 Continuar os processos no diretório root  
+
+```
+arch-chroot -S /mnt
+```
+
 <details>
 
-## 3.3 Criando uma partição de swap <sub>(Opcional)</sub>  
+## 3.4 Criando uma partição de swap <sub>(Opcional)</sub>  
 
 1. Alocar separando uma parte do armazenamento e criando um diretório de `partição swap`  
 ```
@@ -347,12 +354,6 @@ nano /etc/fstab
 ```
 > Dica: `CTRL`+`O` pra salvar, `Enter` pra confirmar. `CTRL`+`X` pra fechar.  
 </details>
-
-## 3.4 Continuar os processos no diretório root  
-
-```
-arch-chroot -S /mnt
-```
 
 ## 3.5 Definir região, hora e idioma  
 
