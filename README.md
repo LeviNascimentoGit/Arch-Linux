@@ -492,7 +492,7 @@ systemctl enable bluetooth.service
 
 1. Instalar o Gnome puro
 ```
-sudo pacman -S gdm gnome-shell gnome-desktop gnome-session gnome-keyring gnome-control-center gnome-settings-daemon gnome-tweak-tool gnome-software gnome-console xdg-user-dirs-gtk adwaita-icon-theme gnome-backgrounds gnome-initial-setup nautilus
+sudo pacman -S gnome-shell gnome-desktop gdm gnome-session gnome-keyring gnome-control-center gnome-tweaks gnome-settings-daemon gnome-software flatpak gnome-console xdg-user-dirs-gtk adwaita-icon-theme gnome-backgrounds nautilus
 ```
 2. Habilitar a tela de login
 ```
