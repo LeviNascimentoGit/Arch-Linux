@@ -58,7 +58,7 @@ Pode usar o [Rufus](https://rufus.ie), [Ventoy](https://www.ventoy.net/en/downlo
 1.  Entrar na BIOS da placa-mãe e Desativar o `Secure Boot` e Ativar o `Boot UEFI`.  
 2.  Dar Boot pela mídia de instalação que tem UEFI no nome.  
 
-### Depois de mostrar "Welcome to Arch-Linux" e vários [OK]. Vai abrir a raiz do instalador:  
+### Depois de mostrar "Welcome to Arch-Linux" e vários [OK]. Vai abrir a raiz do instalador, dentro da mídia de instalação:  
 
 **`root@archiso ~ #`**  
 
@@ -317,11 +317,14 @@ cat /mnt/etc/fstab
 ```
 > Se uma das partições não for listada. Repetir o processo desde a criação dos pontos de montagem.
 
-## 3.3 Continuar os processos no diretório root  
+## 3.3 Continuar os processos no diretório `chroot`  
 
 ```
 arch-chroot -S /mnt
 ```
+
+> Entrar no diretório raiz do sistema, dentro da unidade de disco  
+`[root@archiso ~ #]`
 
 <details>
 
