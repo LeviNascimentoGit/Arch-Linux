@@ -489,7 +489,7 @@ systemctl enable bluetooth.service
 ```
 - Suporte ao formato Fat32 e NTFS  
 ```
-sudo pacman -S dosfstools ntfsprog
+dosfstools ntfsprog
 ```
 
 # 5 Instalando a interface gráfica  
