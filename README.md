@@ -551,7 +551,7 @@ quiet systemd.show_status=auto vt.global_cursor_default=0
 
 > Dica: `CTRL`+`O` pra salvar, `Enter` pra confirmar. `CTRL`+`X` pra fechar.
 
-# 7 Preparando pra reiniciar
+## 7 Preparando pra reiniciar
 
 1. `Ctrl`+`D` pra fechar o `[root@archiso ~ #]` e voltar pra raiz do instalador **`root@archiso ~ #`**  
 
@@ -567,5 +567,7 @@ reboot
 
 ## Links úteis  
 [ArchWiki - Instalation Guide](https://wiki.archlinux.org/title/Installation_guide)  
+
 [Gnome GitHub](https://github.com/GNOME)  
+
 [Gnome Extensions](https://extensions.gnome.org)  
