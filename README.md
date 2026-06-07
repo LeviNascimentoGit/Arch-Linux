@@ -564,3 +564,8 @@ umount -a -f
 ```
 reboot
 ``` 
+
+## Links úteis  
+[ArchWiki - Instalation Guide](https://wiki.archlinux.org/title/Installation_guide)
+[Gnome GitHub](https://github.com/GNOME)
+[Gnome Extensions](https://extensions.gnome.org)
